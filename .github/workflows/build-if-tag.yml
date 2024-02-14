@@ -28,7 +28,7 @@ jobs:
         uses: docker/metadata-action@v5
         id: metadata
         with:
-          images: ex3lite/${{ env.APP }}
+          images: andyivest/${{ env.APP }}
           tags: type=semver,pattern={{version}}
 
       - name: Set up Docker Buildx
